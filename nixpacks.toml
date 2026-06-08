@@ -1,5 +1,7 @@
+providers = ["python"]
+
 [phases.setup]
-nixPkgs = ["ffmpeg", "python311"]
+nixPkgs = ["ffmpeg"]
 
 [start]
 cmd = "python3 main.py"
